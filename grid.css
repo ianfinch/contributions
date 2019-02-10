@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica,Arial;
+    font-size: 10px;
+    line-height: 10px;
+    color: #24292e;
+}
+
+.year {
+    margin-bottom: 16px;
+    border: solid 1px #24292e;
+    padding: 8px;
+    display: inline-block;
+}
+
+.year > h2 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+td {
+    background-color: #eee;
+    width: 10px;
+    height: 10px;
+}
+
+th {
+    font-weight: normal;
+}
+
+td > span {
+    display: none;
+}
+
+.day-label {
+    text-align: left;
+}
+
+#Sun, #Tue, #Thu, #Sat {
+    display: none;
+}
+
+.non-day {
+    background: inherit;
+}
