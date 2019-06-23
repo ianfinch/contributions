@@ -3,18 +3,22 @@ body {
     font-size: 10px;
     line-height: 10px;
     color: #24292e;
+    padding: 32px;
 }
 
 .year {
-    margin-bottom: 16px;
-    border: solid 1px #24292e;
-    padding: 8px;
-    display: inline-block;
+    margin-bottom: 32px;
 }
 
 .year > h2 {
     margin-top: 2px;
     margin-bottom: 0px;
+}
+
+table {
+    border: solid 1px #24292e;
+    padding: 8px;
+    margin-top: 8px;
 }
 
 td {

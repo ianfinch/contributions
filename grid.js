@@ -66,7 +66,7 @@ const buildYear = (year, firstDayOfYear, daysOfWeek) => {
     return result;
 };
 
-const displayDay = day => '<td id="d' + day + '"' + (day.includes("-99-") ? ' class="non-day"' : "") + '><span>' + day.replace(/^.*-/, "") + "</span></td>";
+const displayDay = day => '<td id="d' + day + '"' + (day.includes("-99-") ? ' class="non-day"' : ' class="m' + day.replace(/-[0-9][0-9]$/, "") + '"') + '><span>' + day.replace(/^.*-/, "") + "</span></td>";
 
 const displayMonth = month => month.map(displayDay).join("");
 
